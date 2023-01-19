@@ -2,6 +2,10 @@ body {
   background-color: #3C3C3C;
 }
 
+.header{
+  background-color: #F75000;
+}
+
 h1 {
   color: white;
   text-align: center;
