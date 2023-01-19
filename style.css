@@ -21,12 +21,12 @@ html, body{
   overflow:hidden;
 }
 .column1{
-  background-color:#4c2c4e;
+  background-color:	000000;
   width:33.3%;
   overflow-y:auto;
 }
 .column2{
-  background-color:#24c9c8;
+  background-color:	#272727;
   width:66.7%;
   overflow-y:auto;
 }
