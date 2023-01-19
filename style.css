@@ -22,12 +22,12 @@ html, body{
 }
 .column1{
   background-color:#272727;
-  width:33.3%;
+  width:10.5%;
   overflow-y:auto;
 }
 .column2{
   background-color:#000000;
-  width:66.7%;
+  width:89.5%;
   overflow-y:auto;
 }
 
