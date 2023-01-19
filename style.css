@@ -23,6 +23,7 @@ html, body{
 
 .column1{
   background-color: #5B5B5B
+  width: 33.3%;
   overflow-y: auto;
 }
 
