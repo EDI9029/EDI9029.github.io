@@ -9,22 +9,22 @@
 　background-color:#f9c81e;
 }
 
-.body {
+body {
   background-color: #3C3C3C;
 }
 
 
-.h1 {
+h1 {
   color: white;
   text-align: center;
 }
             
-.h2 {
+h2 {
   color: white;
   text-align: center;
 }
 
-.p {
+p {
   font-family: verdana;
   font-size: 20px;
 }
