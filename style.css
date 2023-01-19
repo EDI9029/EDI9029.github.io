@@ -15,22 +15,20 @@ html, body{
 }
 
 .content{
-  background-color: red;
-  flex-grow: 1;
-  display: flex;
-  overflow: hidden;
+  background-color:red;
+  flex-grow:1;
+  display:flex;
+  overflow:hidden;
 }
-
 .column1{
-  background-color: #5B5B5B
-  width: 33.3%;
-  overflow-y: auto;
+  background-color:#4c2c4e;
+  width:33.3%;
+  overflow-y:auto;
 }
-
 .column2{
-  background-color: #3C3C3C;
-  width: 66.7%;
-  overflow-y: auto;
+  background-color:#24c9c8;
+  width:66.7%;
+  overflow-y:auto;
 }
 
 h1 {
