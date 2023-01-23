@@ -48,7 +48,14 @@ p {
 
 .sidebar_index {
   color:white;
+  font-family:DFKai-sb;
   font-size:x-large;
+  text-align:center;
+}
+
+li {
+  color:white;
+  font-size:20px;
   text-align:center;
 }
 
