@@ -64,7 +64,6 @@ html, body{
   .footer{
     display: flex;
     background-color: white;
-    height: 50px;
   }
   
   #footer_txt{
