@@ -48,14 +48,14 @@ html, body{
   }
 
   .box{
-    width: 1080px;
+    width: 1920px;
     height: auto;
     overflow: hidden;
     background: #f80;
   }
 
   .box img{
-    width: 1080px;
+    width: 1920px;
     height: auto;
     margin-top: -50;
   }
@@ -65,6 +65,7 @@ html, body{
     display: flex;
     background-color: white;
     height: 100%;
+    mergin-top: 0px;
   }
   
   #footer_txt{
