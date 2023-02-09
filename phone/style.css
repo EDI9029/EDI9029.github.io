@@ -64,7 +64,7 @@ html, body{
   .footer{
     display: flex;
     background-color: white;
-    height: 100%;
+    height: auto;
     mergin-top: 0px;
   }
   
