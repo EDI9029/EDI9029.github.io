@@ -100,14 +100,3 @@
     text-align: center;
     background: #ddd;
   }
-  
-  #footer_txt{
-    margin: auto;
-    font-size: 15px;
-  }
-
-  /*extra styling*/
-  *{
-    font-size:30px;
-    color:black;
-  }
