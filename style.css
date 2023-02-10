@@ -1,6 +1,11 @@
-html, body{
-    height:100%;
-    margin: 0 auto;
+* {
+  box-sizing: border-box;
+}
+  
+  /* Style the body */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
   }
 
   .page{
@@ -10,60 +15,90 @@ html, body{
   }
 
   /*header*/
-  .header{
-    background-color:white;
+  .header {
+    padding: 50px;
+    background: #ddd;
     display: flex;
-    height: 75px;
-    padding:10px;
   }
 
-  #icon{
-    display: flex;
-    height: 60px;
-    width: 300px;
-    overflow: hidden;
-    background: white;
-    margin-top: 10px;
-    margin-left: 10px;
-  }
-
-  #icon img{
-    height: 100%;
-    background: white;
+  .header img{
+    height: 100px;
+    background: #ddd;
     border-radius:50%;
     object-fit: cover;
   }
 
-  #icon_txt{
+  .header h1 {
+    font-size: 40px;
     color: black;
-    margin: auto;
+    margin-left: 25px;
   }
 
-  /*content*/
-  .content{
-    background-color:#da291c;
-    flex-grow:1;
-    display:flex;
-    overflow:hidden;
-  }
-
-  .box{
-    width: 1920px;
-    height: auto;
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+  .navbar {
     overflow: hidden;
-    background: #f80;
+    background-color: #333;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+    
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+  }
+    
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+   
+  /* Active/current link */
+  .navbar a.active {
+    background-color: #666;
+    color: white;
   }
 
-  .box img{
-    width: 1920px;
-    height: auto;
-    margin-top: -50;
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+
+  .row img{
+    width: 100%;
+  }
+
+  /* Main column */
+  .main {   
+    -ms-flex: 100%; /* IE10 */
+    flex: 100%;
+    background-color: gray;
+    padding: 20px;
+  }
+
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
   }
 
   /*footer*/
   .footer{
-    display: flex;
-    background-color: white;
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
   }
   
   #footer_txt{
