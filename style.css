@@ -79,7 +79,7 @@ body {
 }
 
 .row .welcome_picture{
-  width: 100%;
+  width: 100vm;
   height: 100vh;
   background: url("central_mountains.jpg") no-repeat center center;
   display: block;
@@ -87,7 +87,7 @@ body {
 
 .layer{
   background: rgba(255, 255, 255, 0.5);
-  width: 63%;
+  width: 63vm;
   height: 100vh;
   float: right;
 }
