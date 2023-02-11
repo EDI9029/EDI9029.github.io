@@ -16,11 +16,22 @@
 
   /*header*/
   .header {
-    padding: 0px;
-    height: 0vh;
-    background-color: #ddd;
-    position: sticky;
-    top: 0;
+    padding: 50px;
+    background: #ddd;
+    display: flex;
+  }
+
+  .header img{
+    height: 100px;
+    background: #ddd;
+    border-radius:50%;
+    object-fit: cover;
+  }
+
+  .header h1 {
+    font-size: 40px;
+    color: black;
+    margin-left: 25px;
   }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
@@ -29,7 +40,6 @@
     background-color: #333;
     position: sticky;
     position: -webkit-sticky;
-    padding: 5px;
     top: 0;
   }
     
@@ -42,10 +52,6 @@
     padding: 14px 20px;
     text-decoration: none;
     font-size: 20px;
-  }
-
-  /* Right-aligned link */
-  .navbar a.right {
     float: right;
   }
     
@@ -61,7 +67,7 @@
     color: white;
   }
 
-/* Column container */
+  /* Column container */
   .row {  
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -69,39 +75,8 @@
     flex-wrap: wrap;
   }
 
-  .wrap{
-    display: block;
+  .row img{
     width: 100%;
-    background: url("central_mountains.jpg") ;
-    background-size:cover;
-  }
-
-  .layer{
-    background: rgba(255,255,255,0.8);
-    width: 50%;
-    float: right;
-    line-height: 94vh;
-    display: flex;
-  }
-
-  .layer img{
-    width: 200px;
-    height: 200px;
-    background: #ddd;
-    border-radius:50%;
-    object-fit: cover;
-    margin-left: 150px;
-    margin-top: 340px;
-  }
-
-  .layer .wrap{
-    font-weight: bold;
-    font-size: 100px;
-    color: transparent;
- 
-    -webkit-background-clip: text;
-    background-clip: text;
-    margin-left: 50px;
   }
 
   /* Main column */
@@ -121,7 +96,18 @@
 
   /*footer*/
   .footer{
+    padding: 20px;
     text-align: center;
-    background: white;
-    padding: 10px
+    background: #ddd;
+  }
+  
+  #footer_txt{
+    margin: auto;
+    font-size: 15px;
+  }
+
+  /*extra styling*/
+  *{
+    font-size:30px;
+    color:black;
   }
