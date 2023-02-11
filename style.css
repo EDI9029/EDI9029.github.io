@@ -8,56 +8,55 @@ body {
   margin: 0;
 }
 
-  .page{
-    height:100%;
-    display: flex;
-    flex-direction:column;
-  }
+.page{
+  height:100%;
+  display: flex;
+  flex-direction:column;
+}
 
-  /*header*/
-  .header {
-    padding: 40px;
-    background: #ddd;
-    display: flex;
-  }
+/*header*/
+.header {
+  padding: 30px;
+  background: white;
+  display: flex;
+}
 
-  .header img{
-    height: 100px;
-    background: #ddd;
-    border-radius:50%;
-    object-fit: cover;
-  }
+.header img{
+  height: 100px;
+  background: #ddd;
+  border-radius:50%;
+  object-fit: cover;
+}
 
-  .web_title{
-    margin-left: 40px;
-    line-height: 20px;
-  }
+.web_title{
+  margin-left: 40px;
+  line-height: 20px;
+}
 
-  .web_title h1 {
-    font-size: 40px;
-    color: black;
-  }
+.web_title h1 {
+  font-size: 40px;
+  color: black;
+}
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
-  .navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-  }
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
     
-  /* Style the navigation bar links */
-  .navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-size: 20px;
-    float: right;
-  }
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  float: right;
+}
     
   /* Change color on hover */
   .navbar a:hover {
