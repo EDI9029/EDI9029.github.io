@@ -48,13 +48,12 @@ body {
 }
     
 .navbar a {
-  float: left;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 20px 26px;
+  font-size: 15px;
   text-decoration: none;
-  font-size: 20px;
   float: right;
 }
     
@@ -78,18 +77,28 @@ body {
   flex-wrap: wrap;
 }
 
-.row .welcome_picture{
+.row .wrap{
   width: 100%;
-  height: 100vh;
+  height: 76.5vh;
   background: url("central_mountains.jpg") no-repeat center center;
   display: block;
 }
 
 .layer{
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.7);
   width: 63%;
-  height: 100vh;
+  height: 76.5vh;
   float: right;
+}
+
+.layer .wrap {
+  font-weight: bold;
+  font-size: 400px;
+  text-align: center;
+  line-height: 70vh;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
   /* Main column */
