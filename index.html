@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <script type="text/javascript">
-        if(navigator.userAgent.match(/Android|iPhone|iPad/i)) {
-            window.location = '/phone/index.html';
-        }
-    </script>
-
     <head>
         <title>Edward.L's BLog</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="shortcut icon" href="1676335903.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="photo/1676335903.ico" type="image/x-icon">
+        <script type="text/javascript">
+            if(navigator.userAgent.match(/Android|iPhone|iPad/i)) {
+                window.location = '/phone_release/index.html';
+            }
+        </script>
     </head>
 
     <body>
         <div class="page">
             <div class="header">
-                <img src="icon.png" alt="icon">
+                <img src="photo/icon.png" alt="icon">
                 <div class="web_title">
                     <h1>Edward.L's Blog</h1>
                     <p>刷存在感是活著的證明，亦是促使人類文明發展之義務。</p>
@@ -26,9 +25,9 @@
             </div>
 
             <div class="navbar">
-                <a href="#"><i class="fa fa-bars" style="font-size:15px"></i> More </a>
-                <a href="#">About author</a>
-                <a href="#" class="active">Home</a>
+                <a href="#" id="more_btn"><i class="fa fa-bars" style="font-size:15px"></i> More </a>
+                <a href="#" id="about_author">About author</a>
+                <a href="#" id="home" class="active">Home</a>
             </div>
 
             <div class="row">
@@ -44,7 +43,7 @@
                         <h2>最新狀態</h2>
                         <h5>Title description, Feb 14, 2023</h5>
                         <div class="fakeimg">
-                            <img src="DSCF3422.JPG" style="height:600px;">
+                            <img src="photo/DSCF3422.JPG" style="height:600px;">
                             <div class="text_beside_img">
                                 <p>&emsp;&emsp;「滴滴!滴滴!」鬧鐘如往常在 05:30 響起，反射性地張開眼睛滾下床將被子折成豆腐乾，盥洗完畢開始晨間日常作業程序。以橄欖油爆香蒜末後加入從冷藏室取出的隔夜飯淋上醬油翻炒，
                                    起鍋後再煎上兩顆荷包蛋作為配菜。用完早餐，打開筆電開始處理有關事宜。一天就這麼開始了
@@ -72,5 +71,7 @@
                 <div id="footer_txt">© 2023 Edward.L</div>
             </div>
         </div>
+
+        <script type="text/javascript" src="javascript/index.js"></script>
     </body>
 </html>
